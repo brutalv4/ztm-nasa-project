@@ -13,7 +13,7 @@
     "watch": "concurrently npm:watch:*",
     "watch:server": "npm run watch --prefix server",
     "watch:client": "npm start --prefix client",
-    "deploy": "npm run build --prefix client && npm run start-server"
+    "deploy": "npm run build --prefix client && npm run start:server"
   },
   "keywords": [],
   "author": "",
